@@ -1,6 +1,8 @@
 # Godot_Zombie_FPS
 
 Ez a projekt egy alap FPS rendszert valósít meg Godot 4.4 alatt, amely tartalmazza a játékos mozgását, fegyverkezelést és ellenséges AI-t.
+Felhasznált godot eszköz: FPS Hands 0.8.1
+https://godotengine.org/asset-library/asset/3715
 
 ---
 
