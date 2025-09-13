@@ -13,6 +13,7 @@ https://godotengine.org/asset-library/asset/3715
 - **Fegyver és kamera effektek**: recoil, fegyver mozgás, torkolattűz és füst  
 - **Ellenséges AI (zombi)**: NavigationAgent3D alapú mozgás, adott távolságból támadás, lövés követése, animációk.
 - **Zombi és játékos**: játékos és zombi sebzés kezelés.
+- **Játékos interakció**: játékos meg tud fogni egy adott objektumot és utána fel és le tudja mozgatni.
 
 ---
 
@@ -20,16 +21,18 @@ https://godotengine.org/asset-library/asset/3715
 
 | Akció | Input |
 |-------|-------------|
-| Mozgás előre/hátra/balra/jobbra | `move_forward`, `move_back`, `move_left`, `move_right` |
-| Futás | `sprint` |
-| Ugrás | `jump` |
-| Guggolás | `crouch` |
-| Lövés | `fire` |
-| Újratöltés | `reload` |
-| Közelharc | `melee` |
-| Célzás (ADS) | `aim` |
-| Következő / előző fegyver | `next_weapon`, `previous_weapon` |
-| Kilépés a játékból | `exit` |
+| Mozgás előre/hátra/balra/jobbra | `w`, `s`, `a`, `d` |
+| Futás | `shift` |
+| Ugrás | `space` |
+| Guggolás | `ctrl` |
+| Lövés | `bal egérgomb` |
+| Újratöltés | `r` |
+| Közelharc | `v` |
+| Célzás (ADS) | `jobb egérgomb` |
+| Következő / előző fegyver | `e`, `q` |
+| Kilépés a játékból | `esc` |
 | Kamera forgatás | Egérmozgás |
+| Objektum megfogás | `f` |
+| Objektum fel/le mozgatás | `nyil fel`,`nyil le` |
 
 ---
