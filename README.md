@@ -31,8 +31,9 @@ https://godotengine.org/asset-library/asset/3715
 | Célzás (ADS) | `jobb egérgomb` |
 | Következő / előző fegyver | `e`, `q` |
 | Kilépés a játékból | `esc` |
-| Kamera forgatás | Egérmozgás |
+| Kamera forgatás | `Egérmozgás` |
 | Objektum megfogás | `f` |
-| Objektum fel/le mozgatás | `nyil fel`,`nyil le` |
+| Objektum fel/le mozgatás | `nyíl fel`,`nyíl le` |
+| Egér kurzor megjelenítés/elrejtés | `F1` |
 
 ---
