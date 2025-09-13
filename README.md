@@ -12,6 +12,7 @@ https://godotengine.org/asset-library/asset/3715
 - **Fegyverkezelés**: több fegyver kezelése, lövés (single/auto), közelharc, újratöltés, fegyver cserélés.  
 - **Fegyver és kamera effektek**: recoil, fegyver mozgás, torkolattűz és füst  
 - **Ellenséges AI (zombi)**: NavigationAgent3D alapú mozgás, adott távolságból támadás, lövés követése, animációk.
+- **Zombi és játékos**: játékos és zombi sebzés kezelés.
 
 ---
 
