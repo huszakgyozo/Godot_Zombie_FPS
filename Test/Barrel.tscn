@@ -53,15 +53,15 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_kg57h")
 
-[node name="Barrel" type="Node3D"]
+[node name="RigidBody3D" type="RigidBody3D"]
+collision_layer = 4
+collision_mask = 3
 
-[node name="RigidBody3D" type="RigidBody3D" parent="."]
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 transform = Transform3D(0.073964, -0.0123742, -0.997184, -0.0029211, 0.999916, -0.0126248, 0.997257, 0.00384662, 0.0739213, 0.0657459, 0.426871, -0.0300446)
 shape = SubResource("CylinderShape3D_kj0bt")
 
-[node name="Barrel" type="MeshInstance3D" parent="RigidBody3D"]
+[node name="Barrel" type="MeshInstance3D" parent="."]
 transform = Transform3D(-0.598331, 0.801249, 0, 0, 0, 1, 0.801249, 0.598331, 0, 0.069487, 4.44089e-18, -0.0320618)
 mesh = SubResource("ArrayMesh_tw81q")
 skeleton = NodePath("")
